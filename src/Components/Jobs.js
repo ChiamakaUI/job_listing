@@ -37,6 +37,7 @@ const Jobs = ({ data }) => {
 
   useEffect(() => {
     modifiedData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filteredKeywords]);
 
   
